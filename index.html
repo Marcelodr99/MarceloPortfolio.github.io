@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <title>Marcelo Portfolio Website</title>
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha256-46gynGAkLSFpVbEBog43gvNhfr0j+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+    <script src="https://kit.fontawesome.com/6605e9bb55.js" crossorigin="anonymous"></script>
+    <!-- Update with own fonts -->
+    <link href="https://donts.googlepis.com/css?family=Source+Code+Pro:400,900|Source+Sans
+    +Pro:300,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class = "background__img parallax">
+    
+        <!-- Container element -->
+        
+    <header>
+        <!-- <div class="logo">
+          <img src="img/Md-removebg-preview.png" alt="">
+        </div> -->
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+                </ul>
+            </nav> 
+            
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong> Marcelo Del Rosario</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Web Developer / Software Engineer</p>
+        <img src="img/Md-removebg-preview.png" alt="temporary pic" class="intro__img">
+    </section>
+
+    <!-- My services -->
+    <section class="my-services" id="services">
+        <h2 class="section__title section__title--services reveal">Skills</h2>
+        
+        <div class="services reveal">
+            <div class="service">
+                <img src="img/java.png" alt="temporary pic" class="skill_img">
+                <p>Proficient with Java
+                    Have taken many classes using Java and assignments 
+                    focused on problem solving using Java.
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <img src="img/html5.png" alt="temporary pic" class="skill_img">
+                <p>
+                    Proficient with HTML5
+                    Have several projects including this portfolio using HTML5 to design 
+                    the front-end of multiple websites.             
+                </p>
+            </div> <!-- / service -->
+
+            <div class="service">
+                <img src="img/python.png" alt="temporary pic" class="skill_img">
+                <p>Have experience with Python 
+                   Taken a couple of classes and done some assignments with Python.
+                </p>
+            </div> <!-- / service -->
+            <div class="service">
+                <img src="img/mysql.png" alt="temporary pic" class="skill_img">
+                <p>Experience with mySQL
+                    Used SQL in both web-related projects for the back-end 
+                    databases.
+                </p>
+            </div> <!-- / service -->
+            <div class="service">
+                <img src="img/javascript.png" alt="temporary pic" class="skill_img">
+                <p>Some experience with Javascript 
+                    Used some Javascript for web-related projects and started utilizing JS 
+                    more.
+
+                  </p>
+            </div> <!-- / service -->
+        </div> <!-- / services -->
+    </section>
+
+    <!-- About me -->
+    <section class = "about-me__background">
+       <section class="about-me reveal" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about">Stockton University Graduate with a Bachelor of Science in Computer Science</p> 
+
+        <div class="about-me__body">
+            <p>I am a 23 year old 2021-graduate of Stockton University with a Bachelor of Science
+                in Computer Science and Technologies. I have worked on several projects the past few years
+                relating to web development and having worked on them in group enviroments. 
+            </p>
+            <p>I am proficient in front-end development using languages such as HTML 
+                and CSS and have also experience making the back-end of websites using PHP and SQL.
+            </p>
+        </div>
+
+        <img src="img/grad.png" alt="Temporary img" class="about-me__img">
+    </section>
+</section>
+    <!-- My work -->
+    <section class="my-work" id="work parallax">
+        <h2 class="section__title section__title--work reveal">My Projects</h2>
+        <p class="section__subtitle section__subtitle--work reveal">A selection of my range of work</p>
+
+        <div class="portfolio reveal">
+            <!-- Portfolio item 01-->
+            <a href="http://rossicarpetcleaning.epizy.com/" class="portfolio__item">
+                <img src="img/Carpet_cleaning_project.png" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 02-->
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/portfolio-02.jpg" alt="" class="portfolio__img">
+            </a>
+
+            <!-- Portfolio item 03
+            <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/portfolio-03.jpg" alt="" class="portfolio__img">
+            </a>
+
+            Portfolio item 04-->
+            <!-- <a href="portfolio-item.html" class="portfolio__item">
+                <img src="img/portfolio-04.jpg" alt="" class="portfolio__img">
+            </a> -->
+
+
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address-->
+        <h2>Contact Me</h2>
+        <br>
+        <a href="mailto:marcelodr99@gmail.com" class="footer__link">marcelodr99@gmail.com</a>
+        <!-- <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://linkedin.com">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://google.com">
+                    <i class="fa-brands fa-google"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+        </ul> -->
+    </footer>
+
+    <script src="js/index.js">
+    </script>
+</body>
+</html>
